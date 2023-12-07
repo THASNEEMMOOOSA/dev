@@ -1,0 +1,41 @@
+{% extends "master.html"%}
+
+{% block title %}
+Details about {{d.firstname}} {{d.lastname}}
+{% endblock %}
+
+
+{% block content %}
+<h2 >Name: {{d.firstname}} {{d.lastname}}</h2>
+<h3>Phone no: {{d.phone}} </h3>
+<h3>Date joined:{{d.date}}</h3> 
+<a href="/datas">go back</a>
+{% endblock %}
+
+
+
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>Details of:</h1>
+    <h2>Name: {{d.firstname}} {{d.lastname}}</h2>
+    <h3>Phone no: {{d.phone}} </h3>
+    <h3>Date joined:{{d.date}}</h3> 
+    <a href="/datas">go back</a>
+</div>
+
+
+
+</body>
+</html> -->

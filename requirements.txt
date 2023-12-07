@@ -1,0 +1,16 @@
+asgiref==3.7.2
+certifi==2023.7.22
+distlib==0.3.7
+Django==4.2.6
+django-debug-toolbar==4.2.0
+djangorestframework==3.14.0
+filelock==3.12.4
+pipenv==2023.10.3
+platformdirs==3.11.0
+Pygments==2.16.1
+pytz==2023.3.post1
+sqlparse==0.4.4
+tzdata==2023.3
+virtualenv==20.24.5
+virtualenvwrapper-win==1.2.7
+whitenoise==6.6.0
